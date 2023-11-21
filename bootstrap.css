@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid yellow;
+}
+.row{
+    border: 3px solid purple;
+}
+.col, .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    border: 1px solid palevioletred;
+}
+body{
+    background-image: url(nbg.png);
+}
+
+#header{
+ background: orange;
+}
+#menu{
+    background: lightblue;
+}
+#content{
+    background-color: white;
+}
+#sidebar{
+    background: pink;
+}
+#footer{
+    background: orange;
+}

@@ -1,0 +1,117 @@
+.container{
+    border: 1px solid transparent;
+     
+}
+.container-fluid{
+    background-color: white;
+    border: 1px solid transparent;
+}
+.row{
+    border: 3px solid transparent;
+}
+.col, .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    border: 1px solid transparent;
+}
+body{
+    background-color: aliceblue;
+}
+
+#nav{
+    height: 150px;
+    background-color: white;
+    margin-top: 10px;
+}
+figure{
+    text-align: center;
+    height: 100px;
+    
+}
+#carousel{
+    margin-top: 20px;
+}
+#card{
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+     
+}
+
+#card img{
+    height: 150px;
+    object-fit: contain;
+
+}
+.nest{
+    background-color: white;
+    margin-top: 10px;
+}
+.nest img{
+    height: 150px;
+    object-fit: contain;
+}
+.nest h3{
+    padding: 10px;
+}
+.pass{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+  #memory img{
+    width: 150px;
+    object-fit: contain;
+     padding-left: 30px;
+ }
+ .side{
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: left;
+ }
+
+ .logo img{
+    height: 21px;
+    object-fit: contain;
+ }
+ .color{
+    color: green;
+ }
+ .line{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+ }
+ a{
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: underline;
+ }
+ .foot{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    font-size: 12px;
+    padding-bottom: 30px;
+ }
+ .th img{
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    object-fit: contain;
+ }
+
+ @media screen and (max-width:400px) {
+    .th img{
+        width: 220px;
+    }
+ }
+  .wid img{
+    height: 21;
+    object-fit: contain;
+  }
+   .pd{
+    max-width: 500px;
+  margin: 0 auto;
+   }
+   

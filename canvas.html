@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas" height="300px" width="200px" style="border: 1px solid black;"></canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 300);
+        ctx.stroke();
+
+    </script>
+
+    <canvas id="myCan" height="200" width="200" style="border: 1px solid;"></canvas>
+    <script>
+        var c = document.getElementById("myCan");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(90, 90, 60, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+
+
+    <canvas id="myCanv" height="300" width="300" style="border: 1px solid;"></canvas>
+    <script>
+        var c = document.getElementById("myCanv");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("Hello World", 60, 150);
+
+    </script>
+
+    <canvas id="myCanva" height="300" width="300" style="border: 1px solid;"></canvas>
+    <script>
+        var c = document.getElementById("myCanva");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("Hello World", 60, 150);
+
+    </script>
+
+    <canvas id="myCa" height="300" width="400" style="border: 1px solid; "></canvas>
+    <script>
+        var c=document.getElementById("myCa");
+        var ctx=c.getContext("2d");
+        
+        var grd=ctx.createLinearGradient(0,0,200,0);
+        grd.addColorStop(0,"red");
+        grd.addColorStop(1,"yellow");
+
+        ctx.fillStyle = grd;
+        ctx.fillRect(0,0,1500,1000);
+    </script>    
+ 
+
+ <canvas id="myC" height="300" width="400" style="border: 1px solid; "></canvas>
+ <script>
+     var c=document.getElementById("myC");
+     var ctx=c.getContext("2d");
+     
+     var grd=ctx.createRadialGradient(100,70,300,100,70,70);
+     grd.addColorStop(0,"red");
+     grd.addColorStop(1,"purple");
+
+     ctx.fillStyle = grd;
+     ctx.fillRect(0,0,2000,1000);
+ </script>    
+
+
+<canvas id="canvas" height="200" width="200" style="border: 1px solid; "></canvas>
+ <script>
+     var c=document.getElementById("canvas");
+     var ctx=c.getContext("2d");
+     
+     var grd=ctx.createLinearGradient(200,100,300,400);
+     grd.addColorStop(0,"red");
+     grd.addColorStop(1,"purple");
+
+     ctx.fillStyle = grd;
+     ctx.font="30px Arial";
+     ctx.fillText("Hellow World",200,100);
+ </script>    
+
+</body>
+
+</html>

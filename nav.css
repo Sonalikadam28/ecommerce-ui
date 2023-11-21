@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family:monospacecs;
+}
+
+nav{
+    height: 80;
+    width: 100;
+    background: none;
+    }
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}    
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+
+nav a{
+    color: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+}
+
+ .video{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0.5%;
+    align-items: center;
+    justify-content: center;
+ }
+ .back-video{
+    
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+ }

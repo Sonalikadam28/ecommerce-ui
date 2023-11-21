@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1, shrink-to-fit=no">
+    <!-- CSS only -->
+    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="flipkart.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid overflow-hidden sticky-top">
+        <header>
+            <div class="row ">
+                <div class="col-12 bg-primary" style="position: sticky;top: 1px;">
+                    <nav class="navbar bg-body-tertiary">
+
+                        <a class="navbar-brand" href="#">
+                            <img src="flogo.png" alt="Bootstrap" width="100px" height="50px">
+                        </a>
+                        <form class="d-flex" role="search" style="width: 500px;">
+                            <input class="form-control me-2" type="search"
+                                placeholder="Search for Products Brands and More" aria-label="Search">
+                            <button class="btn btn-light" type="submit">Search</button>
+                        </form>
+
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                        <a class="navbar-brand " aria-current="page" href="#">Become a Seller</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                            fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                                        </svg>
+                                        <a class="navbar-brand " href="signin.html" role="button"
+                                             aria-expanded="false">
+                                            Sign in
+                                        </a>
+                                       
+                                    </li>
+                                    <li class="nav-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                        </svg>
+                                        <a class="navbar-brand" href="cart.html">Cart</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </nav>
+
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+    </div>
+
+
+    <div class="container-fluid overflow-hidden">
+        <div class="row gy-2 ">
+            <div class="col-lg-3 col-sm-6  ">
+                <div class="p-3 border bg-light">
+                    <div class="card ">
+                        <img src="mem.webp" class="card-img-top img-fluid" alt="..." height="90px" width="30px" style="object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title"> Store Your Memories</h5>
+                            <p>Range Of Pendrive From ₹499 </p>
+                        </div>
+
+                    </div>
+                    <div class="col side">
+                        Filter <br>
+                        <button type="button" class="btn btn-secondary"> Min-60000+</button>
+                        <hr>
+                        <p>computer</p>
+                        <p>storage</p>
+                        <strong>BRAND</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                BRYT
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                ACER
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                HP
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                MOREBYTE
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                SAMSUNG
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                SanDisk
+                            </label>
+                        </div><br>
+
+                        <strong>Customer Rating</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                4 & above
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                3 & above
+                            </label>
+                        </div><br>
+
+                        <strong>Discount</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                50% or more
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                40% or more
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                30% or more
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                20% or more
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                10% or more
+                            </label>
+                        </div><br>
+                        <strong>GST INVOICE AVAILABLE</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                GST Invoice Available
+                            </label>
+                        </div><br>
+
+                        <strong>AVAILABILITY</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Include Out of Stock
+                            </label>
+                        </div><br>
+
+                        <strong>OFFERS</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Bye More and Save More
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Special Price
+                            </label>
+                        </div><br>
+
+                        <strong>CAPACITY</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                128
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                128 GB
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                64 GB
+                            </label>
+                        </div>
+
+                        <strong>TYPE</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                MicroSD Card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                MicroSDHC
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                MicroSDXC
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Pendrive
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                SDHC UHC-l Card
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Type a Micro USB
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Type A to Type C
+                            </label>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-lg-9 col-sm-12">
+                <div class="  border bg-light ">
+                    <p class="pass"> <a href="flipkart.html">Home ></a>
+                        <a href="">Computer ></a>
+                        <a href="">Storage</a>
+                    </p>
+                    <p> Computers ,Lexar Storage ,Crucial Storage ,Toshiba Storage ,SSD ,SanDisk Storage ,HDD ,Pen
+                        Drives ,SSD Storage ,Memory Cards
+                    </p>
+                    <strong>Pendrives MC July </strong> <span>(Showing 1 – 37 products of 37 products) </span>
+                </div>
+                <hr>
+                <div class="row pt-5 " id="memory">
+                    <div class="col-lg-3 col-sm-12 ">
+                        <a href="pen1.html">
+                            <div class="card h-100  mr-sm-4" style="width: 15rem;">
+                                <img src="memory.webp" class="card-img-top" alt="..." height="150px" width="50px">
+                                <div class="card-body">
+
+                                    <p class="card-text text-dark" style="font-size: 14px;"> SanDisk Cruze Blade SDCZ50 64 GB Pen
+                                        Drive</p></a>
+                                    <p style="font-size: 10px;"> Red, Black <span class="logo"><img src="flilogo.png"
+                                                alt=""></span></p>
+                                    <p>₹439 <span class="line">1500</span> <span class="color">60% off <br> Bank Offer
+                                        </span> </p>
+
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100" style="width: 15rem;">
+                            <img src="m1.webp" class="card-img-top " alt="..." height="150px" width="20px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;"> HP V236w 64 GB Pen Drive</p>
+                                <p style="font-size: 10px;"> Silver <span class="logo"><img src="flilogo.png"
+                                            alt=""></span></p>
+                                <p>₹377 <span class="line">1100</span> <span class="color">74% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card h-100" style="width: 15rem;">
+                            <img src="m2.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;">SAMSUNG Evo Plus 128 GB MicroSDXC Class 10
+                                    130 MB/s Me...</p>
+                                <p style="font-size: 10px;"> With Adapter <span class="logo"><img src="flilogo.png"
+                                            alt=""></span></p>
+                                <p>₹829 <span class="line">2699</span> <span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100" style="width: 15rem;">
+                            <img src="m3.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;">SanDisk Ultra 64 GB MicroSDXC Class 10 140
+                                    MB/s Memory...</p>
+                                <p style="font-size: 10px;"> <span class="logo"><img src="flilogo.png" alt=""></span>
+                                </p>
+                                <p>₹539 <span class="line">1000</span> <span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-5" id="memory">
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100" style="width: 12rem;">
+                            <img src="1.webp" class="card-img-top img-fluid" alt="..." height="100px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;"> SAMSUNG Evo Plus 64 GB MicroSDXC Class 10
+                                    130 MB/s Mem...</p>
+                                <p style="font-size: 10px;"> With Adapter <span class="logo"><img src="flilogo.png"
+                                            alt=""></span></p>
+                                <p>₹479 <span class="line">1392</span> <span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100" style="width: 12rem;">
+                            <img src="2.webp" class="card-img-top img-fluid" alt="..." height="100px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;">SanDisk Cruzer Blade USB 2.0 32 GB Flash
+                                    Pen Drive</p>
+                                <p style="font-size: 10px;"> Red Black <span class="logo"><img src="flilogo.png"
+                                            alt=""></span></p>
+                                <p>₹339 <span class="line">650</span> <span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100" style="width: 12rem;">
+                            <img src="3.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;"> HP UHS-I U1 128 GB MicroSDHC Class 10 100
+                                    MB/s Memory ...</p>
+                                <p style="font-size: 10px;"> <span class="logo"><img src="flilogo.png" alt=""></span>
+                                </p>
+                                <p>₹648 <span class="line">3099</span> <span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100" style="width: 12rem;">
+                            <img src="4.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;">SanDisk Extreme A2 128 GB MicroSD Card
+                                    Class 10 190 MB/...</p>
+                                <p style="font-size: 10px;"> <span class="logo"><img src="flilogo.png" alt=""></span>
+                                </p>
+                                <p>₹1229 <span class="line">2900</span> <span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-5" id="memory">
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100 " style="width: 12rem;">
+                            <img src="5.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;"> SanDisk SDDDC3-064G-I35NB 64 GB OTG Drive
+                                </p>
+                                <p style="font-size: 10px;"> Blue, Type A to Type C <span class="logo"><img
+                                            src="flilogo.png" alt=""></span></p>
+                                <p>₹729 <span class="line">1600</span><span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6  ">
+                        <div class="card h-100" style="width: 12rem;">
+                            <img src="6.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;"> SanDisk SDCZ48-064G-I35 64 GB Pen Drive
+                                </p>
+                                <p style="font-size: 10px;"> Black <span class="logo"><img src="flilogo.png"
+                                            alt=""></span></p>
+                                <p>₹519 <span class="line">1300</span><span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6  ">
+                        <div class="card h-100" style="width: 12rem;">
+                            <img src="7.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;"> SanDisk SDDDC4-128G-I35 128 GB OTG Drive
+                                </p>
+                                <p style="font-size: 10px;">Silver, Type A to Type C <span class="logo"><img
+                                            src="flilogo.png" alt=""></span></p>
+                                <p>₹1279 <span class="line">3000</span><span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card h-100" style="width: 12rem;">
+                            <img src="8.webp" class="card-img-top img-fluid" alt="..." height="150px" width="50px">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 14px;"> SanDisk Ultra Dual SDDD3-064G-I35 64 GB
+                                    OTG Drive</p>
+                                <p style="font-size: 10px;">Black, Type A to Micro USB <span class="logo"><img
+                                            src="flilogo.png" alt=""></span></p>
+                                <p>₹599 <span class="line">1400</span><span class="color">60% off <br> Bank
+                                        Offer</span> </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+    <div class="container-fluid overflow-hidden mt-4 ">
+        <footer class="bg-dark text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container-fluid ">
+                <!--Grid row-->
+                <div class="row ">
+                    <!--Grid column-->
+                    <div class="col-sm-2   mb-4 mb-md-0 foot  ">
+                        <p class="text-uppercase pt-2  "> ABOUT</p>
+
+                        <ul class="list-unstyled mb-0  ">
+                            <li>
+                                <a href="#!" class=" text-light"> Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light"> About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light"> Careers</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Flipkart Stories</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Press</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Flipkart Wholesales</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Claertrip</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Corporate Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-sm-2  mb-4 mb-md-0 foot">
+                        <p class="text-uppercase mb-0 mt-2  pb-3"> HELP</p>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-light">Payments</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Shipping</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Cancellation & Returns </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Report Infringement</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-sm-2   mb-4 mb-md-0 foot">
+                        <p class="text-uppercase mt-2"> CONSUMER POLICY</p>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-light">Cancellation & Returns </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light"> Terms Of Use</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Security</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Sitemap</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Grievance Redressal</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">EPR Compliance</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-sm-2   mb-4 mb-md-0 foot">
+                        <p class="text-uppercase mt-2">SOCIAL</p>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-light">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-light">YouTube</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-2   mb-4 mb-md-0 foot">
+                        <p class="text-uppercase mt-2">Mail Us:</p>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                Flipkart Internet Private Limited,
+
+                                Buildings Alyssa, Begonia &
+
+                                Clove Embassy Tech Village,
+
+                                Outer Ring Road, Devarabeesanahalli Village,
+
+                                Bengaluru, 560103,
+
+                                Karnataka, India
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-sm-2   mb-4 mb-md-0 foot">
+                        <p class="text-uppercase mb-0 mt-2 ">Registered Office Address: </p>
+
+                        <ul class="list-unstyled pt-2">
+                            <li>
+                                Flipkart Internet Private Limited,
+
+                                Buildings Alyssa, Begonia &
+
+                                Clove Embassy Tech Village,
+
+                                Outer Ring Road, Devarabeesanahalli Village,
+
+                                Bengaluru, 560103,
+
+                                Karnataka, India
+
+                                CIN : U51109KA2012PTC066107
+
+                                Telephone: 044-45614700
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+
+            <div class="row pb-sm-3" style="color: white;">
+                <div class="col-sm-2">
+                    <img src="bag.svg" alt=""> Become a Seller
+                </div>
+                <div class="col-sm-1">
+                    <img src="star.svg" alt="">Advertis
+                </div>
+                <div class="col-sm-1">
+                    <img src="gift.svg" alt=""> Gift
+                </div>
+                <div class="col-sm-1">
+                    <img src="q.svg" alt=""> Help
+                </div>
+                <div class="col-sm-3">© 2007-2023 Flipkart.com</div>
+
+                <div class="col-sm-4" style="text-align: end;">
+                    <img src="card.svg" alt="">
+                </div>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+</body>
+
+</html>

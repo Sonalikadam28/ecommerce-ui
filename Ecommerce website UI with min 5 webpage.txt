@@ -1,0 +1,24 @@
+Ecommerce website UI with min 5 webpage
+1. Landing Page (Banner sliders, product search, Product offer-category Grids, testimonials, FAQ,...)
+2. Product Listing page (Left sidebar product filters, Right side product listing)
+3. Product detail page (Product multiple image with thumbnails and product add to cart, Buy Now options, product features and information)
+4. Cart page
+5. Login & Register page (Email and password, login with social media  google & facebook)
+
+
+
+
+ <div class="col-3 border  ">
+                <div class="p-3"> <img src="t11.webp" alt="" height="400px" width="200px" class=""> </div>
+                <div class="row">
+                    <div class="col-6">
+                        <button type="button" class="btn btn-warning btn-lg " style="font-size: 15px;"><a href="cart.html" class="text-dark"> GO TO
+                            CART</a></button>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-warning btn-lg " style="font-size: 15px;"><a href="" class="text-dark">BUY NOW </a> </button>
+                    </div>
+                </div>
+
+
+            </div>
